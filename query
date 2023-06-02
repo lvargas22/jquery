@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Query Selectors</title>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Query Selectors</h1>
+      <p>This is an example of using query selectors in HTML.</p>
+      <ul>
+        <li class="list-item">Item 1</li>
+        <li class="list-item">Item 2</li>
+        <li class="list-item">Item 3</li>
+      </ul>
+    </div>
+    <script>
+      const heading = document.querySelector('h1');
+      const listItems = document.querySelectorAll('.list-item');
+      console.log(heading);
+      console.log(listItems);
+    </script>
+  </body>
+</html>
